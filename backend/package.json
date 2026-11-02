@@ -1,0 +1,39 @@
+{
+  "name": "nexus-ai",
+  "version": "1.0.0",
+  "description": "Where speed meets intelligence — next-gen AI generation powered by Nexus AI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivam-creator7/NexusAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Shivam-creator7/NexusAI/issues"
+  },
+  "homepage": "https://github.com/Shivam-creator7/NexusAI#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcrypt": "^6.0.0",
+    "cookie": "^2.0.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.2",
+    "multer": "^2.5.0",
+    "officeparser": "^8.2.0",
+    "parser": "^0.1.4",
+    "pdf-parse": "^2.4.5",
+    "zod": "^4.6.7"
+  }
+}

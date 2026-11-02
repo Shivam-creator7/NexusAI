@@ -1,0 +1,26 @@
+{
+  "name": "nexus-ai",
+  "version": "1.0.0",
+  "description": "Where speed meets intelligence — next-gen AI generation powered by Nexus AI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start --prefix backend",
+    "dev": "npm run dev --prefix frontend",
+    "server": "npm start --prefix backend",
+    "client": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivam-creator7/NexusAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shivam-creator7/NexusAI/issues"
+  },
+  "homepage": "https://github.com/Shivam-creator7/NexusAI#readme"
+}
